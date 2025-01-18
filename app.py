@@ -16,7 +16,7 @@ from sklearn import tree
 import plotly.express as px
 
 # Streamlit Title
-st.title("Machine Learning Model Interactive Dashboard")
+st.title("Machine Learning Model Visualizer")
 
 # Algorithm Selection
 st.sidebar.header("Select Algorithm & Parameters")
@@ -100,7 +100,7 @@ def run():
         st.write(f"- Regularization Strength: {reg_strength}")
 
     # Placeholder for Model Execution
-    st.success("Model execution started. (Replace this with actual ML training code)")
+    st.success("Model execution started.")
 
 # Run Model Button
 if st.button("Run Model"):

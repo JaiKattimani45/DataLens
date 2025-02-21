@@ -285,7 +285,7 @@ def main():
             l2_size = st.selectbox("L2 Size", [0, 1, 2, 4, 8])
             l3_size = st.selectbox("L3 Size", [0, 1, 2, 4, 8])
             l4_size = st.selectbox("L4 Size", [0, 1, 2, 4, 8])
-            dataset_nn = st.selectbox("Dataset", ['Circular', 'XOR'])
+            dataset_nn = st.selectbox("Dataset", ['Uniform', 'XOR'])
             epochs = st.slider("Epochs", 10, 1000, 300, 10)
 
         elif algo == "KMeans":
